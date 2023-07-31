@@ -1,0 +1,506 @@
+jupyter-lab
+jupyter-labs
+jupyter-lab
+pip install numpy
+jupyter-lab
+pip numpy
+pip install numpy
+pip install --upgrade pip
+juypter-lab
+jupyter-lab
+sudo killall VDCAssistant
+jupyter-lab
+python -m pip install --upgrade pandas
+pip3 install --upgrade pandas
+pip install matplotlib
+pip numpy update
+pip numpy
+pip install numpy
+pip update numpy
+pip install numpy --upgrade
+pip install pandas
+pip upgrade pandas
+pip 
+pip install --upgrade pandas
+juypter-lab
+jupyter-lab
+/opt/anaconda3/bin/jupyter_mac.command ; exit;
+/opt/anaconda3/bin/jupyter_mac.command ; exit;
+/opt/anaconda3/bin/jupyter_mac.command ; exit;
+/opt/anaconda3/bin/jupyter_mac.command ; exit;
+ls
+cd Downloads
+ls
+cd ..
+ls
+ls
+mkdir test
+ls
+cd test
+echo "Hello Command Line" >> hello_cli.txt
+ls
+cat hello_cli.txt 
+cd ../..
+ls
+cd patrickevans29/
+ls -a
+ls -l
+ls -t
+clear
+nano ~/.bash_profile
+ls
+cd Documents/
+cd PJ\ CODING/
+ls
+ls lingua-franca-project/
+cd lingua-franca-project/
+pwd
+ls
+mkdir world
+ls
+touch world/esperanto.txt
+ls -alt
+cd lingua-franca/
+ls
+ls europe
+mv europe/chinese.txt ../asia
+ls europe
+ls asia
+ls
+grep chinese.txt
+ls 
+ls asia > todo/asian_language_files.txt
+echo "Welkom by die Lingua Franca vertaaldienste." > africa/afrikaans.txt
+ wc -l */*.txt | grep 0 > todo/empty_files.txt
+ls todo/empty_files.txt 
+cat todo/empty_files.txt 
+sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+p
+pwd
+grep -Rl 'Lingua-Franca' */*.txt | wc -1
+clear
+nano ~/.bash_profile
+source ~/.bash_profile
+nano ~/.bash_profile
+source ~/.bash_profile
+md translations
+ls
+d
+hy
+clear
+nano ~/.bash_profile
+source ~/.bash_profile
+md projects
+ls
+d
+hy
+clear
+env
+clear
+nano ~/.bash_profile
+source ~/.bash_profile
+git
+mkdir git_practice
+ls
+../../..
+cd ../../..
+ls
+cd PJ\ CODING/
+ls
+mkdir git_practice
+cd git_practice/
+git init
+echo "Hello Git and GitHub" >> README.txt
+git add README.txt 
+git commit -m "First commit"
+git config --global --edit
+git commit -m "First commit"
+git status
+ls
+git add README.txt
+git config --global --edit
+git config --global --edit
+rm /Users/patrickevans29/.gitconfig
+git config --global --edit
+git add README.txt 
+git status
+git add README.txt
+git status
+git commit -m "First Commit"
+ls
+cat README.txt 
+git add README.txt 
+pwd
+cd Documents/
+cd PJ\ CODING/
+cd GIT/
+cd excursion
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+pwd
+touch __str__markdown.md
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+/usr/local/bin/python3 "/Users/patrickevans29/Documents/PJ CODING/GIT/Codacademy Docs/__str__doc.py"
+ /usr/bin/env /usr/local/bin/python3 /Users/patrickevans29/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 52611 -- /Users/patrickevans29/Documents/PJ\ CODING/GIT/Codacademy\ Docs/__str__doc.py 
+ cd /Users/patrickevans29/Documents/PJ\ CODING/GIT/Codacademy\ Docs ; /usr/bin/env /usr/local/bin/python3 /Users/patrickevans29/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 52620 -- /Users/patrickevans29/Documents/PJ\ CODING/GIT/Codacademy\ Docs/__str__doc.py 
+pwd
+git touch __str__.py
+touch __str__doc.py
+/opt/anaconda3/bin/jupyter_mac.command ; exit;
+pwd
+cd Documents/PJ\ CODING/GIT/
+ls
+mkdir practice-rebase-project
+cd practice-rebase-project/
+git clone https://github.com/patrickevans29/practice-rebase-off-platform-project.git
+git brancg
+git branch
+ls
+cd practice-rebase-off-platform-project/
+ls
+git branch
+cd The\ little\ black\ fish\ -\ part\ 1
+cd ..
+ls
+cd ..
+ls
+rm -r practice-rebase-project/
+rmdir practice-rebase-project/
+clear
+pwd
+git clone https://github.com/patrickevans29/practice-rebase-off-platform-project.git
+cd practice-rebase-off-platform-project/
+ls
+git branch
+git log
+git branch
+clear
+pwd
+cd ..
+git branch
+ls
+cd practice-rebase-off-platform-project/
+git branch
+git init
+git branch
+git branch
+ls
+pwd
+cd Documents/PJ\ CODING/GIT/
+ls
+git clone https://github.com/patrickevans29/practice-rebase-off-platform-project.git
+git branch
+cd ..
+ls
+git clone https://github.com/Codecademy/practice-rebase-off-platform-project.git
+cd practice-rebase-off-platform-project/
+ls
+git branch
+ls
+ls
+pwd
+pwd
+cd Documents/PJ\ CODING/GIT/practice-rebase-off-platform-project/
+ls
+git branch -r
+git status
+git log --graph --decorate --oneline --all
+git HEAD
+git checkout part_1_Monday
+git rebase main
+clear
+pwd
+cd ..
+cd..
+cd ..
+pwd
+git clone https://github.com/patrickevans29/docs.git
+ls
+cd docs
+git checkout main
+git pull
+clear
+pwd
+cd ..
+ls
+cd wedding-rsvp-off-platform-project/
+git branch
+pwd
+git branch
+ls
+git add guests.md 
+git commit -m "Added my name to the list of guests"
+git push
+git checkout main
+git status
+git checkout rsvp-pjevans
+git status
+git branch main
+bit checkout main
+git checkout main
+git push
+git log
+pwd
+cd cd ..
+cd ..
+pwd
+cd patrickevans29/Documents/PJ\ CODING/GIT
+ls
+cd Codacademy\ Docs/
+ls
+git clone https://github.com/patrickevans29/docs.git
+git checkout main
+git pull
+clear
+git pull
+git pull
+ls
+cd docs
+ls
+git pull
+clear
+pwd
+git checkout -b pj_str_branch
+ls
+git branch
+cd ..
+ls
+mv str.md docs/content/python/concepts/dunder-methods/terms/
+ls
+cd docs
+git branch
+cd content/python/concepts/dunder-methods/terms/
+ls
+mkdir str
+ls
+mv str.md str
+ls
+cd str
+ls
+cd docs
+cd ../../../../
+pwd
+cd ../..
+ls
+cd ..
+pwd
+clear
+git status
+ls
+cd ..
+ls
+cd Coda
+cd Codacademy\ Docs/
+ls
+git branch
+cd docs/
+git branch
+cd content/python/concepts/dunder-methods/terms/str/
+ls
+cd ..
+ls
+git add str/
+git status
+git commit -m "new __str__() term entry."
+git push origin pj_str_branch
+git remote add origin https://github.com/patrickevans29/docs.git
+git remote add upstream https://github.com/Codecademy/docs.git
+git remote -v
+git branch
+clear
+pwd
+cd ../../../../../../../..
+pwd
+ls
+cd GIT
+git clone https://github.com/patrickevans29/wedding-rsvp-off-platform-project.git
+cd wedding-rsvp-off-platform-project/
+git checkout -b rsvp-pjevans
+pwd
+cd ../../..
+pwd
+cd PJ\ CODING/
+clear
+brew install gh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install gh
+gh --version
+pwd
+git branch
+git checkout rsvp-pjevans
+git push origin rsvp-pjevans
+pwd
+cd Documents/PJ\ CODING/GIT
+git clone https://github.com/patrickevans29/try-github-CLI-off-platform-project.git
+ls
+cd try-github-CLI-off-platform-project/
+git auth login
+gh auth login
+gh issue create --title "Fix magic8.py error" --body "The code for magic8.py uses the Python random library without importing it. This causes issues during runtime."
+gh repo set-default
+gh issue create --title "Fix magic8.py error" --body "The code for magic8.py uses the Python random library without importing it. This causes issues during runtime."
+gh issue create --title "Fix magic8.py error" --body "The code for magic8.py uses the Python random library without importing it. This causes issues during runtime."
+gh issue status
+git checkout -b fix-magic8
+git add magic8.py 
+git commit -a -m "Fixed magic8.py by importing the proper required libary."
+git push --set-upstream origin fix-magic8
+gh pr create
+pwd
+cd Documents/PJ\ CODING/GIT/
+ls
+cd try-github-CLI-off-platform-project/
+ls
+gh pr status
+gh issue
+gh issue status
+gh pr create
+gh pr create
+gh pr create
+gh pr merge
+gh issue status
+pws
+pwd
+git clone https://github.com/patrickevans29/add-automated-tests-off-platform-project.git
+cd add-automated-tests-off-platform-project/
+git checkout -b add-auto-tests
+ls
+mkdir .github
+cd .github
+mkdir workflows
+touch unittests.yaml
+ls
+mv unittests.yaml workflows
+ls
+cd ../..
+ls
+cd add-automated-tests-off-platform-project/
+git branch
+git add .
+git commit -a -m "Added a GitHub action to run unit tests automatically on code push"
+git push --set-upstream origin add-auto-tests
+ls
+git add .
+git commit -a -m "resubmitted unittests with updated python version."
+git push --set-upstream origin add-auto-tests
+git add .
+git commit -a -m "resubmitted unittests with updated python version."
+git push --set-upstream origin add-auto-tests
+git add .
+git commit -a -m "resubmitted unittests with updated python version."
+git push --set-upstream origin add-auto-tests
+git add .
+git commit -a -m "updated to run on pull requests"
+git add .
+git commit -a -m "updated to run on pull requests"
+git push --set-upstream origin add-auto-tests
+git branch
+gh pr create
+gh repo set-default
+gh pr create
+gh pr merge
+clear
+pwd
+cd
+pwd
+cd Documents/PJ\ CODING/
+cd CODACADEMY-build-python-web-apps/
+ls
+cd Reggie\'s\ Linear\ Regression\ \(2\)/
+jupyter notebook
+jupyter notebook
+pwd
+cd ..
+l
+ls
+cd ../..
+pwd
+cd PJ\ CODING/
+ls
+cd docs
+ls
+cd content
+cd python/
+ls
+cd concepts/
+cd dunder-methods/
+cd terms/
+ls
+git branch
+cd ..
+cd ../../..
+pwd
+cd ..
+cd ..
+ls
+cd GIT
+ls
+cd Codacademy\ Docs/
+ls
+git branch
+cd docs
+ls
+git branch
+pwd
+cd /
+pwd
+ls
+cd Users/
+ls
+cd patrickevans29/
+cd Documents/
+python 3
+jupyter notebook
+/Users/patrickevans29/Documents/code3/MGDAlpha-v24.3a-mac/MonGirlDreams.app/Contents/MacOS/MonGirlDreams ; exit;
+cd
+ls
+cd Google\ Drive/
+ls
+mkdir CODING 
+cd CODING
+ls
+mkdir Cricket_game
+cd Cricket_game/
+ls
+git branch
+cd ..
+cd ..
+ls
+cd PJ\ CODING/
+cd kumonparentapp/
+ls
+source bin/activate
+pip install flask
+ls
+source bin/activate
+ 
+pwd
+git diff
+git commit
+git status
+git status
+git meld . 

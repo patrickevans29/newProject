@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-07-11T10:16:59.715345Z</date>
+  <millis>1657534619715</millis>
+  <nanos>345000</nanos>
+  <sequence>0</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.ProxyUtil</class>
+  <method>setProxySettings</method>
+  <thread>1</thread>
+  <message>No se usara proxy para las conexiones HTTP</message>
+</record>
+<record>
+  <date>2022-07-11T10:16:59.797320Z</date>
+  <millis>1657534619797</millis>
+  <nanos>320000</nanos>
+  <sequence>1</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.ProxyUtil</class>
+  <method>setProxySettings</method>
+  <thread>1</thread>
+  <message>No se usara proxy para las conexiones HTTPS</message>
+</record>
+<record>
+  <date>2022-07-11T10:16:59.918390Z</date>
+  <millis>1657534619918</millis>
+  <nanos>390000</nanos>
+  <sequence>2</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.SimpleAfirma</class>
+  <method>printSystemInfo</method>
+  <thread>1</thread>
+  <message>AutoFirma 1.7.1
+Resolucion DPI de pantalla: 0
+Sistema operativo: Mac OS X
+Version del SO: 10.14.6
+Version de Java: 11.0.12
+Arquitectura del JRE: 64
+Java Vendor: Eclipse Foundation
+Localizacion por defecto: en_GB
+Tamano actual en memoria: 1024MB
+Tamano maximo de memoria: 2048MB
+Memoria actualmente libre: 1006MB</message>
+</record>
+<record>
+  <date>2022-07-11T10:16:59.926454Z</date>
+  <millis>1657534619926</millis>
+  <nanos>454000</nanos>
+  <sequence>3</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.SimpleAfirma</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Invocacion por protocolo con URL:
+afirma://sign?fileid=ek8kCNKoRGABkkha8eky&amp;rtservlet=https%3A%2F%2Fapuc20.cert.fnmt.es%2Fafirma-signature-retriever%2FRetrieveService&amp;key=86682454</message>
+</record>
+<record>
+  <date>2022-07-11T10:16:59.950467Z</date>
+  <millis>1657534619950</millis>
+  <nanos>467000</nanos>
+  <sequence>4</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncher</class>
+  <method>launch</method>
+  <thread>1</thread>
+  <message>Se invoca a la aplicacion para realizar una operacion de firma/multifirma</message>
+</record>
+<record>
+  <date>2022-07-11T10:16:59.954563Z</date>
+  <millis>1657534619954</millis>
+  <nanos>563000</nanos>
+  <sequence>5</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.core.misc.protocol.ProtocolInvocationUriParser</class>
+  <method>parserUri</method>
+  <thread>1</thread>
+  <message>URI recibida: afirma://sign?fileid=ek8kCNKoRGABkkha8eky&amp;rtservlet=https%3A%2F%2Fapuc20.cert.fnmt.es%2Fafirma-signature-retriever%2FRetrieveService&amp;key=86682454</message>
+</record>
+<record>
+  <date>2022-07-11T10:16:59.959552Z</date>
+  <millis>1657534619959</millis>
+  <nanos>552000</nanos>
+  <sequence>6</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncherUtil</class>
+  <method>getDataFromRetrieveServlet</method>
+  <thread>1</thread>
+  <message>Intentamos recuperar los datos del servidor con la URL:
+https://apuc20.cert.fnmt.es/afirma-signature-retriever/RetrieveService?op=get&amp;v=1_0&amp;id=ek8kCNKoRGABkkha8eky</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:00.739932Z</date>
+  <millis>1657534620739</millis>
+  <nanos>932000</nanos>
+  <sequence>7</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.core.misc.http.DataDownloader</class>
+  <method>downloadData</method>
+  <thread>1</thread>
+  <message>El contenido a obtener es Base64</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:00.741760Z</date>
+  <millis>1657534620741</millis>
+  <nanos>760000</nanos>
+  <sequence>8</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncher</class>
+  <method>launch</method>
+  <thread>1</thread>
+  <message>Se inicia la operacion de firma. Version de protocolo: 0</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:00.771060Z</date>
+  <millis>1657534620771</millis>
+  <nanos>60000</nanos>
+  <sequence>9</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.mozilla.MozillaUnifiedKeyStoreManager</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Inicializamos el almacen de tipo: NSS</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:00.774835Z</date>
+  <millis>1657534620774</millis>
+  <nanos>835000</nanos>
+  <sequence>10</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilities</class>
+  <method>loadNSS</method>
+  <thread>1</thread>
+  <message>Directorio de bibliotecas NSS: /Applications/Firefox.app/Contents/MacOS</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:00.778004Z</date>
+  <millis>1657534620778</millis>
+  <nanos>4000</nanos>
+  <sequence>11</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.mozilla.NSPreferences</class>
+  <method>getActiveProfile</method>
+  <thread>1</thread>
+  <message>Se toma como perfil activo de Mozilla el indicado en el 'profiles.ini' v2 o sup.</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:00.779200Z</date>
+  <millis>1657534620779</millis>
+  <nanos>200000</nanos>
+  <sequence>12</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.mozilla.NSPreferences</class>
+  <method>getFireFoxUserProfileDirectory</method>
+  <thread>1</thread>
+  <message>Se utilizara el perfil activo de Mozilla: 'USERHOME/Library/Application Support/Firefox/Profiles/3uw0t0of.default</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:00.779933Z</date>
+  <millis>1657534620779</millis>
+  <nanos>933000</nanos>
+  <sequence>13</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilities</class>
+  <method>loadNSS</method>
+  <thread>1</thread>
+  <message>Configuracion de NSS para SunPKCS11:
+name=NSSCrypto-AFirma
+library=/Applications/Firefox.app/Contents/MacOS/libsoftokn3.dylib
+attributes=compatibility
+slot=2
+showInfo=false
+allowSingleThreadedModules=true
+nssArgs="configdir='sql:/USERHOME/Library/Application Support/Firefox/Profiles/3uw0t0of.default' certPrefix='' keyPrefix='' flags='readOnly'"</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:00.810500Z</date>
+  <millis>1657534620810</millis>
+  <nanos>500000</nanos>
+  <sequence>14</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>WARNING</level>
+  <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilities</class>
+  <method>loadNssJava9</method>
+  <thread>1</thread>
+  <message>NSS no se ha podido iniciar sin precargar sus dependencias: java.lang.reflect.InvocationTargetException</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:00.813626Z</date>
+  <millis>1657534620813</millis>
+  <nanos>626000</nanos>
+  <sequence>15</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>WARNING</level>
+  <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilitiesOsX</class>
+  <method>configureMacNSS</method>
+  <thread>1</thread>
+  <message>No se puede realizar una carga directa de NSS, se crearan enlaces simbolicos: java.lang.UnsatisfiedLinkError: /Applications/Firefox.app/Contents/MacOS/libnss3.dylib: dlopen(/Applications/Firefox.app/Contents/MacOS/libnss3.dylib, 1): Library not loaded: @executable_path/libmozglue.dylib
+  Referenced from: /Applications/Firefox.app/Contents/MacOS/libnss3.dylib
+  Reason: image not found</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.298048Z</date>
+  <millis>1657534626298</millis>
+  <nanos>48000</nanos>
+  <sequence>16</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>WARNING</level>
+  <class>es.gob.afirma.keystores.mozilla.apple.ShellScript</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>El script finalizo con un error y la salida : 0:236: execution error: ln: /usr/local/lib/libmozglue.dylib: File existsln: /usr/local/lib/libnss3.dylib: File exists (1)
+</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.299904Z</date>
+  <millis>1657534626299</millis>
+  <nanos>904000</nanos>
+  <sequence>17</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>SEVERE</level>
+  <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilitiesOsX</class>
+  <method>configureMacNSS</method>
+  <thread>1</thread>
+  <message>No se han podido crear los enlaces simbolicos para NSS: java.io.IOException: La ejecucion del script devolvio el codigo de finalizacion: 1</message>
+  <exception>
+    <message>java.io.IOException: La ejecucion del script devolvio el codigo de finalizacion: 1</message>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.apple.ShellScript</class>
+      <method>run</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.apple.ShellScript</class>
+      <method>runAsAdministrator</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilitiesOsX</class>
+      <method>configureMacNSS</method>
+      <line>104</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilities</class>
+      <method>loadNssJava9</method>
+      <line>592</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilities</class>
+      <method>loadNSS</method>
+      <line>722</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.NssKeyStoreManager</class>
+      <method>getNssProvider</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.NssKeyStoreManager</class>
+      <method>init</method>
+      <line>59</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.MozillaUnifiedKeyStoreManager</class>
+      <method>init</method>
+      <line>75</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreManagerFactory</class>
+      <method>getNssKeyStoreManager</method>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreManagerFactory</class>
+      <method>getMozillaUnifiedKeyStoreManager</method>
+      <line>542</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreManagerFactory</class>
+      <method>getAOKeyStoreManager</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncherSign</class>
+      <method>processSign</method>
+      <line>388</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncher</class>
+      <method>launch</method>
+      <line>533</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncher</class>
+      <method>launch</method>
+      <line>97</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.standalone.SimpleAfirma</class>
+      <method>main</method>
+      <line>664</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.302237Z</date>
+  <millis>1657534626302</millis>
+  <nanos>237000</nanos>
+  <sequence>18</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>SEVERE</level>
+  <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilitiesOsX</class>
+  <method>configureMacNSS</method>
+  <thread>1</thread>
+  <message>Fallo en el script: ln -s /Applications/Firefox.app/Contents/MacOS/libmozglue.dylib /usr/local/lib/libmozglue.dylib; ln -s /Applications/Firefox.app/Contents/MacOS/libnss3.dylib /usr/local/lib/libnss3.dylib; </message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.304220Z</date>
+  <millis>1657534626304</millis>
+  <nanos>220000</nanos>
+  <sequence>19</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>SEVERE</level>
+  <class>es.gob.afirma.keystores.mozilla.NssKeyStoreManager</class>
+  <method>getNssProvider</method>
+  <thread>1</thread>
+  <message>Error obteniendo el proveedor NSS: es.gob.afirma.core.AOException: La configuracion de NSS para Mac OS X ha fallado: java.lang.UnsatisfiedLinkError: /Applications/Firefox.app/Contents/MacOS/libsoftokn3.dylib: dlopen(/Applications/Firefox.app/Contents/MacOS/libsoftokn3.dylib, 1): Library not loaded: @executable_path/libnss3.dylib
+  Referenced from: /Applications/Firefox.app/Contents/MacOS/libsoftokn3.dylib
+  Reason: image not found</message>
+  <exception>
+    <message>es.gob.afirma.core.AOException: La configuracion de NSS para Mac OS X ha fallado: java.lang.UnsatisfiedLinkError: /Applications/Firefox.app/Contents/MacOS/libsoftokn3.dylib: dlopen(/Applications/Firefox.app/Contents/MacOS/libsoftokn3.dylib, 1): Library not loaded: @executable_path/libnss3.dylib
+  Referenced from: /Applications/Firefox.app/Contents/MacOS/libsoftokn3.dylib
+  Reason: image not found</message>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilitiesOsX</class>
+      <method>configureMacNSS</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilities</class>
+      <method>loadNssJava9</method>
+      <line>592</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilities</class>
+      <method>loadNSS</method>
+      <line>722</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.NssKeyStoreManager</class>
+      <method>getNssProvider</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.NssKeyStoreManager</class>
+      <method>init</method>
+      <line>59</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.mozilla.MozillaUnifiedKeyStoreManager</class>
+      <method>init</method>
+      <line>75</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreManagerFactory</class>
+      <method>getNssKeyStoreManager</method>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreManagerFactory</class>
+      <method>getMozillaUnifiedKeyStoreManager</method>
+      <line>542</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreManagerFactory</class>
+      <method>getAOKeyStoreManager</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncherSign</class>
+      <method>processSign</method>
+      <line>388</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncher</class>
+      <method>launch</method>
+      <line>533</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncher</class>
+      <method>launch</method>
+      <line>97</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.standalone.SimpleAfirma</class>
+      <method>main</method>
+      <line>664</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.306904Z</date>
+  <millis>1657534626306</millis>
+  <nanos>904000</nanos>
+  <sequence>20</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.AOKeyStoreManager</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Inicializamos el almacen de tipo: DNIe y tarjetas FNMT-TIF</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.361118Z</date>
+  <millis>1657534626361</millis>
+  <nanos>118000</nanos>
+  <sequence>21</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.KeyStoreUtilities</class>
+  <method>addPreferredKeyStoreManagers</method>
+  <thread>1</thread>
+  <message>No se ha encontrado un DNIe: java.security.ProviderException: No se ha podido inicializar el proveedor de DNIe: es.gob.jmulticard.apdu.connection.NoReadersFoundException: No se detectaron lectores de tarjetas en el sistema</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.361770Z</date>
+  <millis>1657534626361</millis>
+  <nanos>770000</nanos>
+  <sequence>22</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.AOKeyStoreManager</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Inicializamos el almacen de tipo: Tarjeta FNMT-RCM CERES 4.30 o superior</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.363106Z</date>
+  <millis>1657534626363</millis>
+  <nanos>106000</nanos>
+  <sequence>23</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.KeyStoreUtilities</class>
+  <method>addPreferredKeyStoreManagers</method>
+  <thread>1</thread>
+  <message>No se ha encontrado una tarjeta CERES 4.30 o superior: java.security.ProviderException: No se ha podido inicializar el proveedor de Ceres 4.30 y superior: es.gob.jmulticard.apdu.connection.NoReadersFoundException: No se detectaron lectores de tarjetas en el sistema</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.363942Z</date>
+  <millis>1657534626363</millis>
+  <nanos>942000</nanos>
+  <sequence>24</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.AOKeyStoreManager</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Inicializamos el almacen de tipo: Tarjeta FNMT-RCM CERES</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.367269Z</date>
+  <millis>1657534626367</millis>
+  <nanos>269000</nanos>
+  <sequence>25</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.KeyStoreUtilities</class>
+  <method>addPreferredKeyStoreManagers</method>
+  <thread>1</thread>
+  <message>No se ha encontrado una tarjeta CERES: java.security.ProviderException: No se ha podido conectar con la tarjeta CERES: es.gob.jmulticard.apdu.connection.NoReadersFoundException: No se detectaron lectores de tarjetas en el sistema</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.367792Z</date>
+  <millis>1657534626367</millis>
+  <nanos>792000</nanos>
+  <sequence>26</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilities</class>
+  <method>getMozillaPKCS11Modules</method>
+  <thread>1</thread>
+  <message>Se incluiran los modulos nativos de DNIe/CERES si se encuentran configurados</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.369068Z</date>
+  <millis>1657534626369</millis>
+  <nanos>68000</nanos>
+  <sequence>27</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.mozilla.MozillaKeyStoreUtilities</class>
+  <method>getMozillaPKCS11Modules</method>
+  <thread>1</thread>
+  <message>Obtenidos los modulos externos de Mozilla desde 'pkcs11.txt'</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.370508Z</date>
+  <millis>1657534626370</millis>
+  <nanos>508000</nanos>
+  <sequence>28</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.mozilla.MozillaUnifiedKeyStoreManager</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>No se han encontrado modulos PKCS#11 externos instalados en Firefox</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.371062Z</date>
+  <millis>1657534626371</millis>
+  <nanos>62000</nanos>
+  <sequence>29</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncherSign</class>
+  <method>processSign</method>
+  <thread>1</thread>
+  <message>Obtenido gestor de almacenes de claves: Gestor de almacenes de claves NSS con nombre NSS</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:06.371391Z</date>
+  <millis>1657534626371</millis>
+  <nanos>391000</nanos>
+  <sequence>30</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncherSign</class>
+  <method>processSign</method>
+  <thread>1</thread>
+  <message>Cargando dialogo de seleccion de certificados...</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:08.554956Z</date>
+  <millis>1657534628554</millis>
+  <nanos>956000</nanos>
+  <sequence>31</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>WARNING</level>
+  <class>es.gob.afirma.keystores.AggregatedKeyStoreManager</class>
+  <method>getAliases</method>
+  <thread>1</thread>
+  <message>No se pudieron obtener los alias del almacen Mozilla / Firefox (unificado): java.lang.IllegalStateException: Se han pedido alias a un almacen no inicializado</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:08.565946Z</date>
+  <millis>1657534628565</millis>
+  <nanos>946000</nanos>
+  <sequence>32</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>WARNING</level>
+  <class>es.gob.afirma.keystores.AggregatedKeyStoreManager</class>
+  <method>getAliases</method>
+  <thread>1</thread>
+  <message>No se pudieron obtener los alias del almacen Mozilla / Firefox (unificado): java.lang.IllegalStateException: Se han pedido alias a un almacen no inicializado</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:38.604415Z</date>
+  <millis>1657534658604</millis>
+  <nanos>415000</nanos>
+  <sequence>33</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>WARNING</level>
+  <class>es.gob.afirma.keystores.AOKeyStoreDialog</class>
+  <method>openPkcs12KeyStore</method>
+  <thread>28</thread>
+  <message>No se ha podido cargar el almacen de claves PKCS#12 seleccionado</message>
+  <exception>
+    <message>java.io.IOException: Contrasena invalida: java.io.IOException: keystore password was incorrect</message>
+    <frame>
+      <class>es.gob.afirma.keystores.FileKeyStoreManager</class>
+      <method>init</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.Pkcs12KeyStoreManager</class>
+      <method>init</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreManagerFactory</class>
+      <method>addFileKeyStoreManager</method>
+      <line>207</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreManagerFactory</class>
+      <method>getPkcs12KeyStoreManager</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreManagerFactory</class>
+      <method>getAOKeyStoreManager</method>
+      <line>87</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreDialog</class>
+      <method>openPkcs12KeyStore</method>
+      <line>305</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.keystores.AOKeyStoreDialog</class>
+      <method>changeKeyStoreManager</method>
+      <line>166</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.ui.core.jse.certificateselection.CertificateSelectionDialog</class>
+      <method>changeKeyStore</method>
+      <line>243</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.ui.core.jse.certificateselection.UtilActions</class>
+      <method>doChangeKeyStore</method>
+      <line>92</line>
+    </frame>
+    <frame>
+      <class>es.gob.afirma.ui.core.jse.certificateselection.CertificateSelectionPanel$ChangeKeyStoreActionListener</class>
+      <method>actionPerformed</method>
+      <line>681</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton</class>
+      <method>fireActionPerformed</method>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton$Handler</class>
+      <method>actionPerformed</method>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>fireActionPerformed</method>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>setPressed</method>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton</class>
+      <method>doClick</method>
+    </frame>
+    <frame>
+      <class>javax.swing.plaf.basic.BasicMenuItemUI</class>
+      <method>doClick</method>
+    </frame>
+    <frame>
+      <class>com.apple.laf.AquaMenuItemUI</class>
+      <method>doClick</method>
+    </frame>
+    <frame>
+      <class>javax.swing.plaf.basic.BasicMenuItemUI$Handler</class>
+      <method>mouseReleased</method>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processMouseEvent</method>
+    </frame>
+    <frame>
+      <class>javax.swing.JComponent</class>
+      <method>processMouseEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>processEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>retargetMouseEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>processMouseEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>dispatchEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+    </frame>
+    <frame>
+      <class>java.awt.WaitDispatchSupport$2</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.awt.event.InvocationEvent</class>
+      <method>dispatch</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2022-07-11T10:17:46.208695Z</date>
+  <millis>1657534666208</millis>
+  <nanos>695000</nanos>
+  <sequence>34</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>SEVERE</level>
+  <class>es.gob.afirma.ui.core.jse.JSEUIManager</class>
+  <method>showCertificateSelectionDialog</method>
+  <thread>1</thread>
+  <message>Se genero un error en el dialogo de seleccion de certificados: java.lang.reflect.InvocationTargetException</message>
+</record>
+<record>
+  <date>2022-07-11T10:17:46.209852Z</date>
+  <millis>1657534666209</millis>
+  <nanos>852000</nanos>
+  <sequence>35</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>SEVERE</level>
+  <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncherSign</class>
+  <method>processSign</method>
+  <thread>1</thread>
+  <message>No hay certificados validos en el almacen: es.gob.afirma.keystores.AOCertificatesNotFoundException: No se han encontrado certificados validos en el almacen</message>
+</record>
+<record>
+  <date>2022-07-11T20:24:15.658589Z</date>
+  <millis>1657571055658</millis>
+  <nanos>589000</nanos>
+  <sequence>36</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>SEVERE</level>
+  <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncherErrorManager</class>
+  <method>showError</method>
+  <thread>1</thread>
+  <message>Ha ocurrido un error realizando la operación.
+(SAF_19: No hay ningun certificado válido en su almacén. Compruebe las fechas de caducidad e instale un certificado válido.)</message>
+</record>
+<record>
+  <date>2022-07-11T20:24:15.661754Z</date>
+  <millis>1657571055661</millis>
+  <nanos>754000</nanos>
+  <sequence>37</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>SEVERE</level>
+  <class>es.gob.afirma.standalone.protocol.ProtocolInvocationLauncher</class>
+  <method>launch</method>
+  <thread>1</thread>
+  <message>Error durante la operacion de firma: es.gob.afirma.standalone.protocol.SocketOperationException</message>
+</record>

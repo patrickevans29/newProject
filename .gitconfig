@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = PJ Evans
+	email = patrickevans29@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	autocrlf = false
